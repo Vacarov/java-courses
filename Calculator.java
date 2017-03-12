@@ -1,9 +1,13 @@
 public class Calculator{
 	private int result;
 	public void add(int ... params){
-		for(Integer param : params)
-		{
+		for(Integer param : params){
 			this.result += param; 
+		}
+	}
+	public void substraction(int ... params){
+		for (Integer param : params){
+			this.result -=param;
 		}
 	}
 	public int getResult(){
